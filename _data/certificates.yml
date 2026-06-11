@@ -1,0 +1,287 @@
+- id: 1
+  title_en: "Utility Model Patent Certificate"
+  title_zh: "实用新型专利证书"
+  category_en: "Intellectual Property"
+  category_zh: "知识产权"
+  level_en: "Patent"
+  level_zh: "专利"
+  image: "/assets/certificates/images/cert-01.jpg"
+
+- id: 2
+  title_en: "9th Shandong Maker Competition, Shandong Second Prize (Coal Mining Robot)"
+  title_zh: "第九届山东省创客大赛山东省二等奖（煤炭机器人）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Second Prize"
+  level_zh: "省级二等奖"
+  image: "/assets/certificates/images/cert-02.jpg"
+
+- id: 3
+  title_en: "Shandong College Student IoT Creativity Competition, Shandong Third Prize"
+  title_zh: "山东省大学生物联网创造力大赛山东省三等奖"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Third Prize"
+  level_zh: "省级三等奖"
+  image: "/assets/certificates/images/cert-03.jpg"
+
+- id: 4
+  title_en: "National College Student Statistical Modeling Competition, Shandong Second Prize"
+  title_zh: "全国大学生统计建模大赛山东省二等奖"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Second Prize"
+  level_zh: "省级二等奖"
+  image: "/assets/certificates/images/cert-04.jpg"
+
+- id: 5
+  title_en: "National College Student Financial Elite Challenge, Shandong First Prize"
+  title_zh: "全国大学生金融精英挑战赛山东省一等奖"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial First Prize"
+  level_zh: "省级一等奖"
+  image: "/assets/certificates/images/cert-05.jpg"
+
+- id: 6
+  title_en: "One-Star Volunteer Certificate"
+  title_zh: "一星志愿者"
+  category_en: "Service"
+  category_zh: "志愿服务"
+  level_en: "Volunteer Service"
+  level_zh: "志愿服务"
+  image: "/assets/certificates/images/cert-06.jpg"
+
+- id: 7
+  title_en: "10th Shandong Maker Competition, Shandong Third Prize (Coal Mining Robot)"
+  title_zh: "第十届山东省创客大赛山东省三等奖（煤炭机器人）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Third Prize"
+  level_zh: "省级三等奖"
+  image: "/assets/certificates/images/cert-07.jpg"
+
+- id: 8
+  title_en: "10th Shandong Maker Competition, Shandong Third Prize (Smart Logistics)"
+  title_zh: "第十届山东省创客大赛山东省三等奖（智育物流）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Third Prize"
+  level_zh: "省级三等奖"
+  image: "/assets/certificates/images/cert-08.jpg"
+
+- id: 9
+  title_en: "10th Shandong Maker Competition, Shandong Third Prize (Volleyball Robot)"
+  title_zh: "第十届山东省创客大赛山东省三等奖（排球机器人）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Third Prize"
+  level_zh: "省级三等奖"
+  image: "/assets/certificates/images/cert-09.jpg"
+
+- id: 10
+  title_en: "Hangzhou Artificial Intelligence Society LLM Engineer Certification"
+  title_zh: "杭州市人工智能学会 LLM Engineer 认证"
+  category_en: "Certifications"
+  category_zh: "认证证书"
+  level_en: "Professional Certification"
+  level_zh: "专业认证"
+  image: "/assets/certificates/images/cert-10.jpg"
+
+- id: 11
+  title_en: "Alibaba Cloud ACC Certification (RAG Application Construction and Optimization)"
+  title_zh: "阿里云 ACC 认证（RAG 应用构建及优化）"
+  category_en: "Certifications"
+  category_zh: "认证证书"
+  level_en: "Cloud Certification"
+  level_zh: "云服务认证"
+  image: "/assets/certificates/images/cert-11.jpg"
+
+- id: 12
+  title_en: "Digital Media Competition, Shandong Second Prize (Traffic Flow Forecasting)"
+  title_zh: "数媒竞赛山东省二等奖（交通流预测）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Second Prize"
+  level_zh: "省级二等奖"
+  image: "/assets/certificates/images/cert-12.jpg"
+
+- id: 13
+  title_en: "Digital Media Competition, Shandong Third Prize (Digital Resurrection)"
+  title_zh: "数媒竞赛山东省三等奖（数字复生）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Third Prize"
+  level_zh: "省级三等奖"
+  image: "/assets/certificates/images/cert-13.jpg"
+
+- id: 14
+  title_en: "Digital Media Competition, Shandong Third Prize (Rescue Robot)"
+  title_zh: "数媒竞赛山东省三等奖（救援机器人）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Third Prize"
+  level_zh: "省级三等奖"
+  image: "/assets/certificates/images/cert-14.jpg"
+
+- id: 15
+  title_en: "Digital Media Competition, Shandong Third Prize (Tea Culture)"
+  title_zh: "数媒竞赛山东省三等奖（茶文化）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Third Prize"
+  level_zh: "省级三等奖"
+  image: "/assets/certificates/images/cert-15.jpg"
+
+- id: 16
+  title_en: "Digital Media Competition, National Third Prize (Traffic Flow Forecasting)"
+  title_zh: "数媒竞赛国家三等奖（交通流预测）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "National Third Prize"
+  level_zh: "国家三等奖"
+  image: "/assets/certificates/images/cert-16.jpg"
+
+- id: 17
+  title_en: "National College Student Financial Elite Challenge, National Second Prize"
+  title_zh: "全国大学生金融精英挑战赛国家二等奖"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "National Second Prize"
+  level_zh: "国家二等奖"
+  image: "/assets/certificates/images/cert-17.jpg"
+
+- id: 18
+  title_en: "Software Copyright: Deep Learning-Based Traffic Flow Forecasting System"
+  title_zh: "基于深度学习的交通流预测系统软著"
+  category_en: "Intellectual Property"
+  category_zh: "知识产权"
+  level_en: "Software Copyright"
+  level_zh: "软件著作权"
+  image: "/assets/certificates/images/cert-18.jpg"
+
+- id: 19
+  title_en: "Alibaba Cloud ACC Certification (VISION AI Design)"
+  title_zh: "阿里云 ACC 认证（VISION 人工智能设计）"
+  category_en: "Certifications"
+  category_zh: "认证证书"
+  level_en: "Cloud Certification"
+  level_zh: "云服务认证"
+  image: "/assets/certificates/images/cert-19.jpg"
+
+- id: 20
+  title_en: "Invention Patent Certificate"
+  title_zh: "发明专利证书"
+  category_en: "Intellectual Property"
+  category_zh: "知识产权"
+  level_en: "Patent"
+  level_zh: "专利"
+  image: "/assets/certificates/images/cert-20.jpg"
+
+- id: 21
+  title_en: "National University Business Elite Challenge, Shandong First Prize (International Trade Track)"
+  title_zh: "全国高校商业精英挑战赛（国贸赛道）山东省一等奖"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial First Prize"
+  level_zh: "省级一等奖"
+  image: "/assets/certificates/images/cert-21.jpg"
+
+- id: 22
+  title_en: "National University Business Elite Challenge, National Second Prize (International Trade Track)"
+  title_zh: "全国高校商业精英挑战赛（国贸赛道）国家二等奖"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "National Second Prize"
+  level_zh: "国家二等奖"
+  image: "/assets/certificates/images/cert-22.jpg"
+
+- id: 23
+  title_en: "11th National Applied Talent Comprehensive Skills Competition, National Third Prize (Career Planning)"
+  title_zh: "第十一届全国应用型人才综合技能大赛国赛三等奖（职业规划）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "National Third Prize"
+  level_zh: "国家三等奖"
+  image: "/assets/certificates/images/cert-23.jpg"
+
+- id: 24
+  title_en: "11th National Applied Talent Comprehensive Skills Competition, National Third Prize (Traffic Flow Forecasting System)"
+  title_zh: "第十一届全国应用型人才综合技能大赛国赛三等奖（交通流预测系统）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "National Third Prize"
+  level_zh: "国家三等奖"
+  image: "/assets/certificates/images/cert-24.jpg"
+
+- id: 25
+  title_en: "11th National Applied Talent Comprehensive Skills Competition, National Third Prize (Large Model Fine-Tuning)"
+  title_zh: "第十一届全国应用型人才综合技能大赛国赛三等奖（大模型微调）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "National Third Prize"
+  level_zh: "国家三等奖"
+  image: "/assets/certificates/images/cert-25.jpg"
+
+- id: 26
+  title_en: "11th National Applied Talent Comprehensive Skills Competition, Practice Certificate (Industrial Aesthetics)"
+  title_zh: "第十一届全国应用型人才综合技能大赛实践证书（工业美）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Practice Certificate"
+  level_zh: "实践证书"
+  image: "/assets/certificates/images/cert-26.jpg"
+
+- id: 27
+  title_en: "11th National Applied Talent Comprehensive Skills Competition, Practice Certificate (Workplace Show)"
+  title_zh: "第十一届全国应用型人才综合技能大赛实践证书（职场秀）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Practice Certificate"
+  level_zh: "实践证书"
+  image: "/assets/certificates/images/cert-27.jpg"
+
+- id: 28
+  title_en: "Shandong New Momentum Software Innovation and Entrepreneurship Competition, Shandong Third Prize (Robot)"
+  title_zh: "山东新动能·软件创新创业大赛省三等奖（机器人）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Third Prize"
+  level_zh: "省级三等奖"
+  image: "/assets/certificates/images/cert-28.jpg"
+
+- id: 29
+  title_en: "Shandong New Momentum Software Innovation and Entrepreneurship Competition, Shandong Excellence Award (Traffic Flow)"
+  title_zh: "山东新动能·软件创新创业大赛省优秀奖（交通流）"
+  category_en: "Competitions"
+  category_zh: "竞赛获奖"
+  level_en: "Provincial Excellence Award"
+  level_zh: "省级优秀奖"
+  image: "/assets/certificates/images/cert-29.jpg"
+
+- id: 30
+  title_en: "Software Copyright: Parking Mini Program"
+  title_zh: "停车小程序软件"
+  category_en: "Intellectual Property"
+  category_zh: "知识产权"
+  level_en: "Software Copyright"
+  level_zh: "软件著作权"
+  image: "/assets/certificates/images/cert-30.jpg"
+
+- id: 31
+  title_en: "Software Copyright: Urban Public Transport Optimization System"
+  title_zh: "城市公共交通优化系统"
+  category_en: "Intellectual Property"
+  category_zh: "知识产权"
+  level_en: "Software Copyright"
+  level_zh: "软件著作权"
+  image: "/assets/certificates/images/cert-31.jpg"
+
+- id: 32
+  title_en: "Software Copyright: Expressway Segment Speed and Flow Forecasting System"
+  title_zh: "高速公路分段速度与流量预测系统"
+  category_en: "Intellectual Property"
+  category_zh: "知识产权"
+  level_en: "Software Copyright"
+  level_zh: "软件著作权"
+  image: "/assets/certificates/images/cert-32.jpg"

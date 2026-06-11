@@ -8,3 +8,7 @@ vendor/
 Gemfile.lock
 
 .DS_Store
+
+# Local source materials; published assets are generated under assets/.
+610-获奖证书/
+tmp/

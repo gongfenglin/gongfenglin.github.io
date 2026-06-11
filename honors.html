@@ -1,0 +1,45 @@
+---
+layout: default
+title : Honors
+navbar_title: Honors
+lang: en
+lang_switch_url: /zh/honors
+---
+
+{% assign certificates = site.data.certificates %}
+
+<div class="row">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white mt-4">
+            <div class="card-body p-4">
+                <h1 class="h3 font-weight-normal mb-3">Honors</h1>
+                <p class="text-muted mb-0">
+                    Selected awards, certifications, patents, software copyrights, and service records.
+                    Certificate images are available in the Chinese version.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% assign groups = certificates | group_by: "category_en" %}
+{% for group in groups %}
+<div class="row mt-4">
+    <div class="col">
+        <h2 class="h5 mb-3">{{ group.name }}</h2>
+        <div class="bg-white shadow-sm rounded-xl">
+            {% for item in group.items %}
+            <div class="honor-list-item {% unless forloop.first %}border-top{% endunless %}">
+                <div>
+                    <div class="font-weight-bold">{{ item.title_en }}</div>
+                    <div class="small text-muted">{{ item.level_en }}</div>
+                </div>
+                <a class="small no-break" target="_blank" href="{{ item.image | relative_url }}">
+                    Certificate image
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endfor %}

@@ -104,6 +104,36 @@ div.lazy {
     padding-top: 0;
 }
 
+.honor-list-item {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.certificate-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.certificate-card {
+    overflow: hidden;
+}
+
+.certificate-image {
+    aspect-ratio: 4 / 3;
+    background: #f8f9fa;
+    object-fit: contain;
+    padding: 0.5rem;
+}
+
+@media (max-width: 575.98px) {
+    .honor-list-item {
+        display: block;
+    }
+}
+
 @media (min-width: 576px) {
     .language-switch {
         margin-top: 0;

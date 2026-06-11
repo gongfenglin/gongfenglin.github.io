@@ -1,10 +1,12 @@
 {% assign profile = site.data.profile %}
 {% assign cv_label = "Curriculum Vitae" %}
 {% assign close_label = "Close" %}
+{% assign wechat_id_label = "WeChat" %}
 {% if page.lang == "zh" %}
 {% assign profile = site.data.profile_zh %}
 {% assign cv_label = "个人简历" %}
 {% assign close_label = "关闭" %}
+{% assign wechat_id_label = "微信" %}
 {% endif %}
 
 <div class="row">
@@ -85,6 +87,18 @@
                         <a class="pr-3 no-break" target="_blank" href="https://x.com/{{ profile.x }}">
                             <i class="fab fa-x-twitter"></i> X
                         </a>
+                        {% endif %}
+
+                        {% if profile.qq %}
+                        <span class="pr-3 no-break">
+                            <i class="fab fa-qq"></i> QQ: {{ profile.qq }}
+                        </span>
+                        {% endif %}
+
+                        {% if profile.wechat_id %}
+                        <span class="pr-3 no-break">
+                            <i class="fab fa-weixin"></i> {{ wechat_id_label }}: {{ profile.wechat_id }}
+                        </span>
                         {% endif %}
 
                         {% if profile.wechat_qrcode %}

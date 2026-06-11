@@ -4,6 +4,8 @@ pages:
   url: /
 - name: Publications
   url: /publications
+- name: Honors
+  url: /honors
 - name: Blog
   url: /blog
 - name: Resources
