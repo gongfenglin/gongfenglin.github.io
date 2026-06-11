@@ -33,7 +33,12 @@ jobs:
           enablement: true
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: |
+          if [ "${{ github.repository_owner }}" = "gongfenglin" ]; then
+            bundle exec jekyll build --baseurl ""
+          else
+            bundle exec jekyll build --baseurl "/${{ github.event.repository.name }}"
+          fi
         env:
           JEKYLL_ENV: production
 
