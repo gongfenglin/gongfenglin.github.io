@@ -1,0 +1,46 @@
+primary_name: "宫丰霖"
+secondary_name: "Gong Fenglin"
+navbar_name: "宫丰霖"
+
+positions:
+- name: 山东科技大学交通学院智慧交通专业本科生
+- name: 关注 AI Agent、LLM 评估与智能交通
+
+email: 2830500285@qq.com
+# cv_link: /files/cv/cv.pdf
+# gscholar:
+github: 2830500285
+# twitter:
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   添加微信时请备注姓名和单位，谢谢。
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    我是山东科技大学交通学院 2023 级智慧交通专业本科生，关注 AI Agent、LLM 评估、
+    开源 AI 基础设施与智能交通系统。
+  </p>
+  <p>
+    这个主页用于整理我的研究笔记、开源贡献、项目材料、报告 PDF 和演讲幻灯片。
+    我也以 Jarvis 的名字写作和分享 AI 工具、开源项目与新模型相关内容。
+  </p>
+
+# portrait_url: /assets/images/photos/portrait.jpg
+# portrait_caption:
+
+education:
+- name: 山东科技大学
+  dept: 交通学院
+  position: 智慧交通专业本科生
+  date: 2023 - 至今
+
+experience:
+- name: AI/LLM 开源基础设施
+  dept: Pydantic AI、Haystack integrations、promptfoo
+  position: 开源贡献者
+  date: 2026 - 至今
+
+# awards:

@@ -1,13 +1,13 @@
 primary_name: "Gong Fenglin"
-secondary_name: "龚丰霖"
+secondary_name: "宫丰霖"
 navbar_name: "Gong Fenglin"
 
 positions:
-- name: Academic Researcher
-- name: Personal academic homepage
+- name: Undergraduate Student in Intelligent Transportation
+- name: School of Transportation, Shandong University of Science and Technology
 
 
-email:
+email: 2830500285@qq.com
 # cv_link: /files/cv/cv.pdf
 # gscholar:
 github: 2830500285
@@ -21,19 +21,32 @@ github: 2830500285
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am preparing this academic homepage as a central place for research updates,
-    publications, talks, slides, and long-form notes.
+    I am a 2023-cohort undergraduate student majoring in Intelligent Transportation
+    at the School of Transportation, Shandong University of Science and Technology.
   </p>
   <p>
-    More details about my affiliation, research interests, selected work, and
-    academic activities will be added as the site is finalized.
+    My interests span AI agents, LLM evaluation, open-source AI infrastructure,
+    and intelligent transportation systems. I use this site to collect research
+    notes, open-source work, project materials, PDFs, and slides.
+  </p>
+  <p>
+    I also write as Jarvis about AI tools, open-source projects, and new model
+    releases.
   </p>
 
 # portrait_url: /assets/images/photos/portrait.jpg
 # portrait_caption:
 
-# education:
+education:
+- name: Shandong University of Science and Technology
+  dept: School of Transportation
+  position: B.Eng. student, Intelligent Transportation
+  date: 2023 - Present
 
-# experience:
+experience:
+- name: Open-source AI/LLM Infrastructure
+  dept: Pydantic AI, Haystack integrations, promptfoo
+  position: Contributor
+  date: 2026 - Present
 
 # awards:

@@ -1,17 +1,37 @@
+{% assign current_lang = page.lang | default: "en" %}
+{% assign nav_pages = site.data.navigation.pages %}
+{% assign nav_profile = site.data.profile %}
+{% assign brand_url = "/" %}
+{% assign lang_switch_text = "中文" %}
+{% assign lang_switch_url_default = "/zh/" %}
+{% if current_lang == "zh" %}
+{% assign nav_pages = site.data.navigation_zh.pages %}
+{% assign nav_profile = site.data.profile_zh %}
+{% assign brand_url = "/zh/" %}
+{% assign lang_switch_text = "English" %}
+{% assign lang_switch_url_default = "/" %}
+{% endif %}
+{% assign lang_switch_url = page.lang_switch_url | default: lang_switch_url_default %}
+
 <nav class="navbar navbar-expand-sm navbar-light fixed-top mb-5 shadow-sm">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
-        <a class="navbar-brand"><strong>{{site.data.profile.navbar_name}}</strong></a>
+        <a class="navbar-brand" href="{{ brand_url | relative_url }}"><strong>{{ nav_profile.navbar_name }}</strong></a>
         <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-map"></i> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                {% for item in site.data.navigation.pages %}
+                {% for item in nav_pages %}
                 <li class="nav-item {% if item.name == page.navbar_title or include.active_page == item.name %}active{% endif %}">
                     <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
                 </li>
                 {% endfor %}
+                <li class="nav-item">
+                    <a class="btn btn-sm btn-outline-primary language-switch ml-sm-2" href="{{ lang_switch_url | relative_url }}">
+                        <i class="fas fa-language"></i> {{ lang_switch_text }}
+                    </a>
+                </li>
             </ul>
         </div>
     </div>

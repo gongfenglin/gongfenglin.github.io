@@ -1,0 +1,54 @@
+interests:
+  title: 研究方向
+  items:
+  - "AI Agent 与评估：关注 verification-first 的编码 Agent、记忆、子 Agent 和可复现评测门禁。"
+  - "LLM 基础设施：关注 provider 集成、工具调用可靠性、文档转换和断言工作流。"
+  - "智能交通：关注交通流预测、校园导航和数据驱动的交通系统。"
+
+open_source:
+  title: 代表性开源贡献
+  items:
+  - title: "Pydantic AI：修复 Anthropic 工具结果续聊问题"
+    meta: "已合并 PR #5568 · 2026 年 5 月"
+    url: "https://github.com/pydantic/pydantic-ai/pull/5568"
+    description: "修复继续对话时 Anthropic code-execution 工具结果可能被丢弃的问题。"
+  - title: "Haystack integrations：pgvector 检索排序修复"
+    meta: "已合并 PR #3370 · 2026 年 6 月"
+    url: "https://github.com/deepset-ai/haystack-core-integrations/pull/3370"
+    description: "调整 pgvector 检索排序逻辑，使 PostgreSQL 更好地使用向量索引友好的距离算子。"
+  - title: "Haystack integrations：Docling 异步任务模式"
+    meta: "已合并 PR #3371 · 2026 年 6 月"
+    url: "https://github.com/deepset-ai/haystack-core-integrations/pull/3371"
+    description: "为 Docling Serve converter 添加异步 job mode 支持。"
+  - title: "promptfoo：provider 级 expected failure"
+    meta: "开放 PR #9338"
+    url: "https://github.com/promptfoo/promptfoo/pull/9338"
+    description: "提出 provider 级 xfail、XPASS 报告、UI 展示与文档更新。"
+
+projects:
+  title: 代表性项目
+  items:
+  - title: "omni-agent"
+    meta: "TypeScript"
+    url: "https://github.com/2830500285/omni-agent"
+    description: "Verification-native 本地编码 Agent 运行时，支持 eval gates、记忆、子 Agent 与模型配置。"
+  - title: "glaude-vibe-coder"
+    meta: "TypeScript"
+    url: "https://github.com/2830500285/glaude-vibe-coder"
+    description: "可视化 AI Agent 工作流平台。"
+  - title: "swarm-eval-lab"
+    meta: "Python"
+    url: "https://github.com/2830500285/swarm-eval-lab"
+    description: "用于比较单 Agent 与 Swarm 策略的多 Agent 评估实验室。"
+  - title: "交通流预测系统与实验"
+    meta: "Python"
+    url: "https://github.com/2830500285/deep-learning-traffic-flow-forecasting-system"
+    description: "基于 LSTM 与 iTransformer 的深度学习交通流预测应用与研究实验。"
+  - title: "AI 驱动的数字比较优势贸易研究"
+    meta: "Python"
+    url: "https://github.com/2830500285/ai-driven-digital-comparative-advantage-trade-study"
+    description: "围绕数字比较优势的 AI 辅助研究与可复现分析包。"
+  - title: "山东科技大学青岛校区校内导航"
+    meta: "TypeScript"
+    url: "https://github.com/2830500285/sdust-qingdao-campus-navigation"
+    description: "面向山东科技大学青岛校区的校内导航系统。"

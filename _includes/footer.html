@@ -1,14 +1,23 @@
+{% assign updated_label = "Last updated" %}
+{% assign updated_date = "now" | date: "%b %Y" %}
+{% assign footer_text = site.data.display.footer_text %}
+{% if page.lang == "zh" %}
+{% assign updated_label = "最后更新" %}
+{% assign updated_date = "now" | date: "%Y-%m" %}
+{% assign footer_text = site.data.display.footer_text_zh %}
+{% endif %}
+
 <footer class="footer border-top py-2 mt-5 bg-white small">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
         <div class="row my-3">
             <div class="col-6">
                 <div class="text-muted">
-                    <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
+                    <i>{{ updated_label }}: {{ updated_date }}</i>
                 </div>
             </div>
             <div class="col-6">
                 <div class="text-right text-muted">
-                    {{ site.data.display.footer_text }}
+                    {{ footer_text }}
                 </div>
             </div>
         </div>

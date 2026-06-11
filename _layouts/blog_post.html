@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+{% assign current_lang = page.lang | default: "en" %}
+{% assign html_lang = "en" %}
+{% assign layout_profile = site.data.profile %}
+{% assign blog_nav_title = "Blog" %}
+{% assign toc_label = "Table of Contents" %}
+{% if current_lang == "zh" %}
+{% assign html_lang = "zh-CN" %}
+{% assign layout_profile = site.data.profile_zh %}
+{% assign blog_nav_title = "博客" %}
+{% assign toc_label = "目录" %}
+{% endif %}
+<html lang="{{ html_lang }}">
 <!-- Template: https://github.com/luost26/academic-homepage -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
+    <title>{{ page.title }} - {{ layout_profile.navbar_name }}</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
@@ -16,11 +27,12 @@
     <!-- Math and Code -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" crossorigin="anonymous">
+    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
 </head>
 <body class="bg-light d-flex flex-column min-vh-100" {{ page.body_attr }}>
-    {% include navbar.html active_page="Blog" %}
+    {% include navbar.html active_page=blog_nav_title %}
 
     <main class="flex-grow-1">
         <div class="blog-layout-wrapper">
@@ -48,7 +60,7 @@
             </div>
             <div class="blog-toc-sidebar">
                 <nav id="blog-toc" class="blog-toc-nav">
-                    <div class="blog-toc-title">Table of Contents</div>
+                    <div class="blog-toc-title">{{ toc_label }}</div>
                     <ul class="blog-toc-list"></ul>
                 </nav>
             </div>

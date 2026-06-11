@@ -91,3 +91,21 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+.language-switch {
+    margin-top: 0.25rem;
+}
+
+.highlight-item {
+    padding: 0.65rem 0;
+}
+
+.highlight-item:first-of-type {
+    padding-top: 0;
+}
+
+@media (min-width: 576px) {
+    .language-switch {
+        margin-top: 0;
+    }
+}

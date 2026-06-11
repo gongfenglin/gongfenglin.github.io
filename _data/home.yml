@@ -1,0 +1,54 @@
+interests:
+  title: Research Interests
+  items:
+  - "AI agents and evaluation: verification-first coding agents, memory, sub-agents, and reproducible eval gates."
+  - "LLM infrastructure: provider integrations, tool-use reliability, document conversion, and assertion workflows."
+  - "Intelligent transportation: traffic-flow forecasting, campus navigation, and data-driven transport systems."
+
+open_source:
+  title: Selected Open-Source Contributions
+  items:
+  - title: "Pydantic AI: Anthropic tool-result continuation fix"
+    meta: "Merged PR #5568 · May 2026"
+    url: "https://github.com/pydantic/pydantic-ai/pull/5568"
+    description: "Fixed an issue where Anthropic code-execution tool results could be dropped when continuing a conversation."
+  - title: "Haystack integrations: pgvector retrieval ordering"
+    meta: "Merged PR #3370 · June 2026"
+    url: "https://github.com/deepset-ai/haystack-core-integrations/pull/3370"
+    description: "Improved pgvector retrieval ordering so PostgreSQL can use vector-index-friendly distance operators."
+  - title: "Haystack integrations: Docling async job mode"
+    meta: "Merged PR #3371 · June 2026"
+    url: "https://github.com/deepset-ai/haystack-core-integrations/pull/3371"
+    description: "Added async job mode support for the Docling Serve converter."
+  - title: "promptfoo: provider-level expected failures"
+    meta: "Open PR #9338"
+    url: "https://github.com/promptfoo/promptfoo/pull/9338"
+    description: "Proposes provider-level xfail support, XPASS reporting, UI display, and documentation updates."
+
+projects:
+  title: Selected Projects
+  items:
+  - title: "omni-agent"
+    meta: "TypeScript"
+    url: "https://github.com/2830500285/omni-agent"
+    description: "Verification-native local coding-agent runtime with eval gates, memory, sub-agents, and model profiles."
+  - title: "glaude-vibe-coder"
+    meta: "TypeScript"
+    url: "https://github.com/2830500285/glaude-vibe-coder"
+    description: "Visual AI-agent workflow platform."
+  - title: "swarm-eval-lab"
+    meta: "Python"
+    url: "https://github.com/2830500285/swarm-eval-lab"
+    description: "A multi-agent evaluation lab for benchmarking single-agent and swarm strategies."
+  - title: "Traffic-flow forecasting systems"
+    meta: "Python"
+    url: "https://github.com/2830500285/deep-learning-traffic-flow-forecasting-system"
+    description: "Deep-learning traffic-flow forecasting applications and research experiments with LSTM and iTransformer models."
+  - title: "AI-driven digital comparative advantage trade study"
+    meta: "Python"
+    url: "https://github.com/2830500285/ai-driven-digital-comparative-advantage-trade-study"
+    description: "Public reproducibility package for an AI-driven comparative-advantage study."
+  - title: "SDUST Qingdao campus navigation"
+    meta: "TypeScript"
+    url: "https://github.com/2830500285/sdust-qingdao-campus-navigation"
+    description: "A campus navigation system for Shandong University of Science and Technology's Qingdao campus."
