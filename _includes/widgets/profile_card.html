@@ -28,7 +28,7 @@
 
                         <div class="d-flex">
                             <div class="h1 font-weight-normal">
-                                {{ profile.primary_name }} <small>{{ profile.secondary_name }}</small>
+                                {{ profile.primary_name }}{% if profile.secondary_name %} <small>{{ profile.secondary_name }}</small>{% endif %}
                             </div>
                             {% if profile.portrait_url %}
                             <div class="ml-auto d-md-none">
