@@ -1,0 +1,11 @@
+title_en: "Technical Skills & Knowledge"
+title_zh: "技术能力与知识方向"
+items:
+  - en: "AI agent systems: familiar with agent architecture, multi-agent collaboration, task decomposition, tool use, context compression, long-term memory, and permission-control workflows; experienced with Hermes Codex, Claude Code, and related coding-agent systems."
+    zh: "熟悉 AI Agent 系统架构与多 Agent 协作机制，在任务拆解、工具调用、上下文压缩、长期记忆和权限审批等方面具备完整的工程实践与落地经验；能熟练运用 Hermes Codex、Claude Code 等 AI Agent。"
+  - en: "Full-stack AI engineering: experienced with TypeScript and Python full-stack development, including React, Vue 3, Node.js, and FastAPI; familiar with OpenAI API integration, tool calling, MCP, skills, prompt engineering, and harness engineering practices."
+    zh: "熟悉 TypeScript、Python 全栈开发，使用 React、Vue 3、Node.js、FastAPI 等技术栈完成 AI 应用从前端交互到后端服务的完整交付；熟悉 OpenAI 等大模型 API 接入与 Tool Calling、MCP、Skill 等 AI 工程协议的集成实践，具备 Prompt 和 Harness Engineering 相关工程经验。"
+  - en: "Deep learning and applied modeling: familiar with LSTM and Transformer architectures; experienced with model training, tuning, and deployment in PyTorch-oriented workflows, especially for time-series forecasting, feature engineering, and data-driven tasks."
+    zh: "熟悉 LSTM、Transformer 等深度学习模型架构，具备 PyTorch 环境下的模型训练、调参与部署经验，能独立完成时序预测、特征工程等数据驱动任务。"
+  - en: "Engineering practice: experienced with medium-to-large project delivery, modular architecture design, multi-package monorepo collaboration, and version-control workflows; open-source contributor with attention to code quality and product experience."
+    zh: "具备中大型项目的工程实践经验，熟悉模块化架构设计、多包 monorepo 协作开发与版本管理流程；有开源社区贡献经历，注重代码质量与产品体验。"

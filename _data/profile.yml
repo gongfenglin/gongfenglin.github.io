@@ -3,8 +3,8 @@ secondary_name:
 navbar_name: "Gong Fenglin"
 
 positions:
-- name: Undergraduate Student in Intelligent Transportation
-- name: School of Transportation, Shandong University of Science and Technology
+- name: Undergraduate Engineering Student, Shandong University of Science and Technology
+- name: Contributor to promptfoo, pydantic-ai, deepset-ai, and other open-source AI projects
 
 
 email: gongfenglin@sdust.edu.cn
@@ -23,21 +23,19 @@ wechat_id: gfl370724
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a 2023-cohort undergraduate student majoring in Intelligent Transportation
-    at the School of Transportation, Shandong University of Science and Technology.
+    My research interests center on building autonomous AI agents that are
+    genuinely reliable in practice.
   </p>
   <p>
-    My interests span AI agents, LLM evaluation, open-source AI infrastructure,
-    and intelligent transportation systems. I use this site to collect research
-    notes, open-source work, project materials, PDFs, and slides.
+    I focus on multi-agent systems, large language model evaluation, and
+    open-source AI infrastructure.
   </p>
   <p>
-    I also write as Jarvis about AI tools, open-source projects, and new model
-    releases.
+    I am currently working toward AAAI-27.
   </p>
 
-# portrait_url: /assets/images/photos/portrait.jpg
-# portrait_caption:
+portrait_url: /assets/images/photos/portrait.png
+portrait_caption: Gong Fenglin
 
 education:
 - name: Shandong University of Science and Technology
@@ -46,9 +44,9 @@ education:
   date: 2023 - Present
 
 experience:
-- name: Open-source AI/LLM Infrastructure
-  dept: Pydantic AI, Haystack integrations, promptfoo
-  position: Contributor
+- name: Pydantic-AI · Haystack · Promptfoo
+  dept: Core contributor — merged PRs to pydantic-ai (17.7k stars) and Haystack (25.5k stars); promptfoo PR under review.
+  position: Open-source AI/LLM infrastructure
   date: 2026 - Present
 
 # awards:

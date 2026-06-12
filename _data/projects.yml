@@ -1,0 +1,128 @@
+overview:
+  title_en: Projects
+  title_zh: 项目
+  subtitle_en: "Selected AI agent systems, evaluation work, open-source contributions, and research software with public artifacts."
+  subtitle_zh: "精选 AI Agent 系统、大模型评估、开源贡献与研究型软件项目，均附公开链接。"
+
+sections:
+  - title_en: "AI Agents and Evaluation"
+    title_zh: "AI Agent 与大模型评估"
+    items:
+      - title: "omni-agent"
+        url: "https://github.com/2830500285/omni-agent"
+        link_label_en: "GitHub"
+        link_label_zh: "GitHub"
+        meta_en: "Original project · TypeScript · 2026"
+        meta_zh: "原创项目 · TypeScript · 2026"
+        tags_en: ["AI Agent", "Runtime", "Evaluation"]
+        tags_zh: ["AI Agent", "运行时", "评估"]
+        description_en: "A local-first coding-agent runtime for repository work, combining governed tool execution, persistent memory, subagents, gateway surfaces, and eval-backed capability claims."
+        description_zh: "面向本地代码仓库工作的 coding-agent 运行时，整合受控工具执行、持久记忆、子 Agent、gateway 入口与 eval-backed 能力声明。"
+      - title: "promptfoo provider-level xfail"
+        url: "https://github.com/promptfoo/promptfoo/pull/9338"
+        link_label_en: "Pull Request"
+        link_label_zh: "Pull Request"
+        meta_en: "Open-source contribution · Open PR #9338 · 2026"
+        meta_zh: "开源贡献 · Open PR #9338 · 2026"
+        tags_en: ["LLM Evaluation", "Assertions", "Expected Failures"]
+        tags_zh: ["大模型评估", "断言", "预期失败"]
+        description_en: "A proposed provider-scoped expected-failure mechanism for LLM evaluation workflows, covering xfail matching, XPASS reporting, UI display, telemetry, schemas, tests, and documentation."
+        description_zh: "为 LLM Eval 工作流提出 provider 级预期失败机制，覆盖 xfail 匹配、XPASS 报告、UI 展示、telemetry、schema、测试与文档。"
+      - title: "swarm-eval-lab"
+        url: "https://github.com/2830500285/swarm-eval-lab"
+        link_label_en: "GitHub"
+        link_label_zh: "GitHub"
+        meta_en: "Original project · Python · 2026"
+        meta_zh: "原创项目 · Python · 2026"
+        tags_en: ["Multi-agent", "Benchmark", "Evaluation"]
+        tags_zh: ["多 Agent", "Benchmark", "评估"]
+        description_en: "A Python multi-agent evaluation lab for benchmarking single-agent, planner-worker, and debate-judge strategies with reproducible reports and failure analysis."
+        description_zh: "Python 多 Agent 评估实验台，用于比较 single-agent、planner-worker、debate-judge 等策略，并生成可复现报告与失败分析。"
+      - title: "agent-eval-learning"
+        url: "https://github.com/2830500285/agent-eval-learning"
+        link_label_en: "GitHub"
+        link_label_zh: "GitHub"
+        meta_en: "Knowledge base · 2026"
+        meta_zh: "知识库 · 2026"
+        tags_en: ["Agent Eval", "Playbooks", "Bilingual Docs"]
+        tags_zh: ["Agent Eval", "实践手册", "双语文档"]
+        description_en: "A bilingual handbook for building evaluation programs, covering eval datasets, tooling choices, operating rhythms, release gates, and practical promptfoo examples."
+        description_zh: "面向评估体系建设的双语手册，覆盖 eval 数据集、工具选择、运行节奏、发布门槛与 promptfoo 实践示例。"
+      - title: "glaude-vibe-coder"
+        url: "https://github.com/2830500285/glaude-vibe-coder"
+        link_label_en: "GitHub"
+        link_label_zh: "GitHub"
+        meta_en: "Original project · TypeScript · 2026"
+        meta_zh: "原创项目 · TypeScript · 2026"
+        tags_en: ["Visual Agent", "Workspace", "Local Tools"]
+        tags_zh: ["可视化 Agent", "工作区", "本地工具"]
+        description_en: "A visual local AI agent workbench organized around workspaces, threads, chat, model configuration, local file operations, shell execution, context compression, plugins, skills, and MCP extensions."
+        description_zh: "可视化本地 AI Agent 工作台，围绕 workspace、thread、chat、模型配置、本地文件操作、Shell 执行、上下文压缩、插件、Skills 与 MCP 扩展组织长期任务。"
+
+  - title_en: "Open-Source AI Infrastructure"
+    title_zh: "开源 AI 基础设施"
+    items:
+      - title: "Pydantic AI Anthropic tool-result continuation fix"
+        url: "https://github.com/pydantic/pydantic-ai/pull/5568"
+        link_label_en: "Pull Request"
+        link_label_zh: "Pull Request"
+        meta_en: "Merged PR #5568 · May 2026"
+        meta_zh: "已合并 PR #5568 · 2026 年 5 月"
+        tags_en: ["Agent Framework", "Tool Use", "Bug Fix"]
+        tags_zh: ["Agent 框架", "工具调用", "Bug 修复"]
+        description_en: "Fixed an AnthropicModel continuation bug where bash and text-editor code-execution tool results could be dropped from conversation history."
+        description_zh: "修复 AnthropicModel 续聊时 bash 与 text-editor code-execution 工具结果可能从历史消息中丢失的问题。"
+      - title: "Haystack Docling async job mode"
+        url: "https://github.com/deepset-ai/haystack-core-integrations/pull/3371"
+        link_label_en: "Pull Request"
+        link_label_zh: "Pull Request"
+        meta_en: "Merged PR #3371 · June 2026"
+        meta_zh: "已合并 PR #3371 · 2026 年 6 月"
+        tags_en: ["Document AI", "Async Pipeline", "Integration"]
+        tags_zh: ["文档 AI", "异步管线", "集成"]
+        description_en: "Added async job mode support to the Docling Serve converter integration, improving document-conversion workflows in Haystack."
+        description_zh: "为 Haystack 的 Docling Serve converter 集成添加异步 job mode，提升文档转换工作流能力。"
+      - title: "Haystack pgvector retrieval ordering"
+        url: "https://github.com/deepset-ai/haystack-core-integrations/pull/3370"
+        link_label_en: "Pull Request"
+        link_label_zh: "Pull Request"
+        meta_en: "Merged PR #3370 · June 2026"
+        meta_zh: "已合并 PR #3370 · 2026 年 6 月"
+        tags_en: ["Vector Search", "PostgreSQL", "Retrieval"]
+        tags_zh: ["向量检索", "PostgreSQL", "召回"]
+        description_en: "Fixed pgvector retrieval ordering so PostgreSQL can use vector-index-friendly distance operators for embedding search."
+        description_zh: "修复 pgvector 检索排序逻辑，使 PostgreSQL 可以更好地使用向量索引友好的距离算子。"
+
+  - title_en: "AI Research Systems"
+    title_zh: "AI 研究型系统"
+    items:
+      - title: "AI-driven digital comparative advantage trade study"
+        url: "https://github.com/2830500285/ai-driven-digital-comparative-advantage-trade-study"
+        link_label_en: "GitHub"
+        link_label_zh: "GitHub"
+        meta_en: "Research software · Python · 2025-2026"
+        meta_zh: "研究软件 · Python · 2025-2026"
+        tags_en: ["AI + Economics", "Spatial Gravity Model", "Reproducibility"]
+        tags_zh: ["AI + 经济学", "空间引力模型", "可复现"]
+        description_en: "A public reproducibility package for an empirical study on AI-driven digital comparative advantage and international trade pattern reconstruction."
+        description_zh: "关于 AI 驱动的数字比较优势与国际贸易模式重构的实证研究公开复现包。"
+      - title: "deep-learning-traffic-flow-forecasting-system"
+        url: "https://github.com/2830500285/deep-learning-traffic-flow-forecasting-system"
+        link_label_en: "GitHub"
+        link_label_zh: "GitHub"
+        meta_en: "Research prototype · Python · 2026"
+        meta_zh: "研究原型 · Python · 2026"
+        tags_en: ["Deep Learning", "Traffic Forecasting", "PyQt5"]
+        tags_zh: ["深度学习", "交通流预测", "PyQt5"]
+        description_en: "A desktop traffic-flow forecasting prototype with data import, preprocessing, model training, prediction, visualization, and LSTM/iTransformer model support."
+        description_zh: "桌面端交通流预测原型，支持数据导入、预处理、模型训练、结果预测、可视化，以及 LSTM/iTransformer 模型。"
+      - title: "deep-learning-traffic-flow-research-experiments"
+        url: "https://github.com/2830500285/deep-learning-traffic-flow-research-experiments"
+        link_label_en: "GitHub"
+        link_label_zh: "GitHub"
+        meta_en: "Research experiments · Python · 2026"
+        meta_zh: "研究实验 · Python · 2026"
+        tags_en: ["Forecasting", "Explainability", "iTransformer"]
+        tags_zh: ["预测建模", "可解释性", "iTransformer"]
+        description_en: "Analysis, modeling, and explainability experiments for traffic-flow forecasting, including LSTM, LSTM-Transformer, iTransformer, LIME, sensitivity, and permutation-based explanations."
+        description_zh: "交通流预测分析、建模与可解释性实验，包含 LSTM、LSTM-Transformer、iTransformer、LIME、敏感性与 permutation-based 解释方法。"

@@ -35,11 +35,31 @@ h1, h2, h3, h4, h5, h6,
 
 .text-profile-position {
     font-weight: 400;
+    line-height: 1.45;
+    margin-bottom: 0;
+}
+
+.profile-position-line {
+    margin-bottom: 0.85rem;
 }
 
 .text-profile-bio {
     /* font-family: "Raleway"; */
     font-weight: 400;
+    line-height: 1.45;
+    margin-top: 0 !important;
+}
+
+.text-profile-bio p {
+    margin-bottom: 0.85rem;
+}
+
+.text-profile-bio p:last-child {
+    margin-bottom: 0;
+}
+
+.profile-portrait {
+    height: 230px;
 }
 
 .navbar {
@@ -126,6 +146,44 @@ div.lazy {
     background: #f8f9fa;
     object-fit: contain;
     padding: 0.5rem;
+}
+
+.project-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+    height: 100%;
+}
+
+.project-card-header {
+    gap: 1rem;
+}
+
+.project-card-link {
+    white-space: nowrap;
+}
+
+.project-description {
+    line-height: 1.55;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.project-tags span {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    color: #475569;
+    font-size: 0.78rem;
+    line-height: 1.2;
+    padding: 0.22rem 0.55rem;
 }
 
 @media (max-width: 575.98px) {

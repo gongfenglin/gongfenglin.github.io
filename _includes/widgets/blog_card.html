@@ -2,6 +2,12 @@
 {% assign hide_bottom_border = include.hide_bottom_border %}
 {% assign first = include.first %}
 {% assign last = include.last %}
+{% assign read_more_label = "Read more" %}
+{% assign date_format = "%B %d, %Y" %}
+{% if page.lang == "zh" %}
+{% assign read_more_label = "阅读全文" %}
+{% assign date_format = "%Y-%m-%d" %}
+{% endif %}
 
 <div class="border-bottom border-gray p-3 {% if hide_bottom_border %}border-0{% endif %}">
     <div class="row">
@@ -12,7 +18,7 @@
                 </a>
             </h5>
             <div class="text-muted small mb-2">
-                <i class="fas fa-calendar-alt"></i> {{ item.date | date: "%B %d, %Y" }}
+                <i class="fas fa-calendar-alt"></i> {{ item.date | date: date_format }}
                 {% if item.tags %}
                     <span class="ml-3">
                         <i class="fas fa-tags"></i>
@@ -31,7 +37,7 @@
             </div>
             <div class="mt-2">
                 <a href="{{ item.url | relative_url }}">
-                    Read more <i class="fas fa-angle-double-right"></i>
+                    {{ read_more_label }} <i class="fas fa-angle-double-right"></i>
                 </a>
             </div>
         </div>

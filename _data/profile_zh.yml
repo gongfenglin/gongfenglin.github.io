@@ -3,8 +3,8 @@ secondary_name: "Gong Fenglin"
 navbar_name: "宫丰霖"
 
 positions:
-- name: 山东科技大学交通学院智慧交通专业本科生
-- name: 关注 AI Agent、LLM 评估与智能交通
+- name: 山东科技大学工学本科生
+- name: promptfoo、pydantic-ai、deepset-ai 等知名开源项目 Contributor
 
 email: gongfenglin@sdust.edu.cn
 # cv_link: /files/cv/cv.pdf
@@ -22,16 +22,17 @@ wechat_id: gfl370724
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    我是山东科技大学交通学院 2023 级智慧交通专业本科生，关注 AI Agent、LLM 评估、
-    开源 AI 基础设施与智能交通系统。
+    我的研究兴趣围绕构建实践中真正可靠的自主 AI 智能体。
   </p>
   <p>
-    这个主页用于整理我的研究笔记、开源贡献、项目材料、报告 PDF 和演讲幻灯片。
-    我也以 Jarvis 的名字写作和分享 AI 工具、开源项目与新模型相关内容。
+    我关注多智能体系统、大模型评估和开源 AI 基础设施。
+  </p>
+  <p>
+    正在冲击 AAAI-27......
   </p>
 
-# portrait_url: /assets/images/photos/portrait.jpg
-# portrait_caption:
+portrait_url: /assets/images/photos/portrait.png
+portrait_caption: 宫丰霖
 
 education:
 - name: 山东科技大学
@@ -40,9 +41,9 @@ education:
   date: 2023 - 至今
 
 experience:
-- name: AI/LLM 开源基础设施
-  dept: Pydantic AI、Haystack integrations、promptfoo
-  position: 开源贡献者
+- name: Pydantic-AI · Haystack · Promptfoo
+  dept: Core contributor：已合并 pydantic-ai（17.7k⭐）与 Haystack（25.5k⭐）PR；promptfoo PR 审核中。
+  position: 开源 AI/LLM 基础设施
   date: 2026 - 至今
 
 # awards:

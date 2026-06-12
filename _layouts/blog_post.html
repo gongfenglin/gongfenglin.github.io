@@ -4,11 +4,13 @@
 {% assign layout_profile = site.data.profile %}
 {% assign blog_nav_title = "Blog" %}
 {% assign toc_label = "Table of Contents" %}
+{% assign post_date_format = "%B %d, %Y" %}
 {% if current_lang == "zh" %}
 {% assign html_lang = "zh-CN" %}
 {% assign layout_profile = site.data.profile_zh %}
 {% assign blog_nav_title = "博客" %}
 {% assign toc_label = "目录" %}
+{% assign post_date_format = "%Y-%m-%d" %}
 {% endif %}
 <html lang="{{ html_lang }}">
 <!-- Template: https://github.com/luost26/academic-homepage -->
@@ -41,7 +43,7 @@
                     <header class="mb-4">
                         <h1 class="display-4 mb-3">{{ page.title }}</h1>
                         <div class="text-muted mb-3">
-                            <i class="fas fa-calendar-alt"></i> {{ page.date | date: "%B %d, %Y" }}
+                            <i class="fas fa-calendar-alt"></i> {{ page.date | date: post_date_format }}
                             {% if page.tags %}
                                 <span class="ml-3">
                                     <i class="fas fa-tags"></i>
