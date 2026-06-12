@@ -27,7 +27,11 @@ lang_switch_url: /honors
     <div class="col">
         <h2 class="h5 mb-3">{{ group.name }}</h2>
         <div class="certificate-grid">
-            {% for item in group.items %}
+            {% assign group_items = group.items %}
+            {% if group.name == "知识产权" %}
+            {% assign group_items = group.items | sort: "ip_order" %}
+            {% endif %}
+            {% for item in group_items %}
             <article class="card border-0 shadow-sm bg-white certificate-card">
                 <a target="_blank" href="{{ item.image | relative_url }}">
                     <img

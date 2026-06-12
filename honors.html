@@ -28,7 +28,11 @@ lang_switch_url: /zh/honors
     <div class="col">
         <h2 class="h5 mb-3">{{ group.name }}</h2>
         <div class="bg-white shadow-sm rounded-xl">
-            {% for item in group.items %}
+            {% assign group_items = group.items %}
+            {% if group.name == "Intellectual Property" %}
+            {% assign group_items = group.items | sort: "ip_order" %}
+            {% endif %}
+            {% for item in group_items %}
             <div class="honor-list-item {% unless forloop.first %}border-top{% endunless %}">
                 <div>
                     <div class="font-weight-bold">{{ item.title_en }}</div>

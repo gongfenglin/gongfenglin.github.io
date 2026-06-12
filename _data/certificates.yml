@@ -1,4 +1,5 @@
 - id: 1
+  ip_order: 6
   title_en: "Utility Model Patent Certificate"
   title_zh: "实用新型专利证书"
   category_en: "Intellectual Property"
@@ -152,6 +153,7 @@
   image: "/assets/certificates/images/cert-17.jpg"
 
 - id: 18
+  ip_order: 1
   title_en: "Software Copyright: Deep Learning-Based Traffic Flow Forecasting System"
   title_zh: "基于深度学习的交通流预测系统软著"
   category_en: "Intellectual Property"
@@ -170,6 +172,7 @@
   image: "/assets/certificates/images/cert-19.jpg"
 
 - id: 20
+  ip_order: 5
   title_en: "Invention Patent Certificate"
   title_zh: "发明专利证书"
   category_en: "Intellectual Property"
@@ -260,6 +263,7 @@
   image: "/assets/certificates/images/cert-29.jpg"
 
 - id: 30
+  ip_order: 2
   title_en: "Software Copyright: Parking Mini Program"
   title_zh: "停车小程序软件"
   category_en: "Intellectual Property"
@@ -269,6 +273,7 @@
   image: "/assets/certificates/images/cert-30.jpg"
 
 - id: 31
+  ip_order: 3
   title_en: "Software Copyright: Urban Public Transport Optimization System"
   title_zh: "城市公共交通优化系统"
   category_en: "Intellectual Property"
@@ -278,6 +283,7 @@
   image: "/assets/certificates/images/cert-31.jpg"
 
 - id: 32
+  ip_order: 4
   title_en: "Software Copyright: Expressway Segment Speed and Flow Forecasting System"
   title_zh: "高速公路分段速度与流量预测系统"
   category_en: "Intellectual Property"
